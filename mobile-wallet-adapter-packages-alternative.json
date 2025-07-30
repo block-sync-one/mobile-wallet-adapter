@@ -1,0 +1,28 @@
+{
+  "name": "mobile-wallet-adapter-packages-alternative",
+  "version": "1.0.0",
+  "description": "Mobile Wallet Adapter packages from block-sync-one repository with specific paths",
+  "private": true,
+  "dependencies": {
+    "@solana-mobile/mobile-wallet-adapter-protocol": "github:block-sync-one/mobile-wallet-adapter#add-sign-tx-example:js/packages/mobile-wallet-adapter-protocol",
+    "@solana-mobile/mobile-wallet-adapter-protocol-web3js": "github:block-sync-one/mobile-wallet-adapter#add-sign-tx-example:js/packages/mobile-wallet-adapter-protocol-web3js",
+    "@solana-mobile/mobile-wallet-adapter-walletlib": "github:block-sync-one/mobile-wallet-adapter#add-sign-tx-example:js/packages/mobile-wallet-adapter-walletlib",
+    "@solana-mobile/wallet-adapter-mobile": "github:block-sync-one/mobile-wallet-adapter#add-sign-tx-example:js/packages/wallet-adapter-mobile",
+    "@solana-mobile/wallet-standard-mobile": "github:block-sync-one/mobile-wallet-adapter#add-sign-tx-example:js/packages/wallet-standard-mobile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/block-sync-one/mobile-wallet-adapter.git",
+    "directory": "js/packages"
+  },
+  "keywords": [
+    "solana",
+    "mobile",
+    "wallet",
+    "adapter",
+    "react-native",
+    "block-sync-one"
+  ],
+  "author": "block-sync-one",
+  "license": "Apache-2.0"
+} 
